@@ -10,23 +10,31 @@ Documentation and guides for using AI-powered coding assistants and vibe coding 
 - Best practices for AI-assisted development
 - Tips and tricks for effective prompting
 - Getting started guides
+- Individual AI tools:
+    - [Amazon CodeWhisperer](./vibe-coding-ais/amazon-codewhisperer.md)
+    - [ChatGPT](./vibe-coding-ais/chatgpt.md)
+    - [Claude](./vibe-coding-ais/claude.md)
+    - [Cursor](./vibe-coding-ais/cursor.md)
+    - [GitHub Copilot](./vibe-coding-ais/github-copilot.md)
 
 ### [🔌 APIs](./apis/)
 Documentation and guides for working with various APIs.
-- AI & Machine Learning APIs
-- Cloud & Infrastructure APIs
-- Communication APIs
-- Payment APIs
+- [AI & Machine Learning APIs](./apis/ai-apis/)
+- [Cloud & Infrastructure APIs](./apis/cloud-apis/)
+- [Examples](./apis/examples/)
+- [Payment APIs](./apis/payment-apis/)
 - Integration best practices
 - Authentication methods
 - Error handling and rate limiting
 
 ### [💡 Project Ideas](./project-ideas/)
 Documentation for future project ideas and concepts.
-- Project templates and frameworks
-- AI-powered project ideas
-- Productivity tools concepts
-- Integration projects
+- [AI-ML Project Ideas](./project-ideas/ai-ml/)
+- [Dev Tools Project Ideas](./project-ideas/dev-tools/)
+- [Integrations Project Ideas](./project-ideas/integrations/)
+- [Mobile Apps Project Ideas](./project-ideas/mobile-apps/)
+- [Templates for Projects](./project-ideas/templates/)
+- [Web Apps Project Ideas](./project-ideas/web-apps/)
 - Prioritization framework
 
 ## 🚀 Getting Started
@@ -49,12 +57,38 @@ To contribute to this documentation repository:
 ```
 AlesDocs/
 ├── README.md                 # This file
-├── vibe-coding-ais/         # AI coding assistants documentation
-│   └── README.md
-├── apis/                    # API documentation and guides
-│   └── README.md
-└── project-ideas/           # Future project ideas
-    └── README.md
+├── apis/                     # API documentation and guides
+│   ├── README.md
+│   ├── ai-apis/
+│   │   └── README.md
+│   ├── cloud-apis/
+│   │   └── README.md
+│   ├── examples/
+│   │   └── README.md
+│   └── payment-apis/
+│       └── README.md
+├── project-ideas/            # Future project ideas
+│   ├── README.md
+│   ├── ai-ml/
+│   │   └── README.md
+│   ├── dev-tools/
+│   │   └── README.md
+│   ├── integrations/
+│   │   └── README.md
+│   ├── mobile-apps/
+│   │   └── README.md
+│   ├── templates/
+│   │   └── README.md
+│   └── web-apps/
+│       └── README.md
+└── vibe-coding-ais/          # AI coding assistants documentation
+    ├── README.md
+    ├── amazon-codewhisperer.md
+    ├── chatgpt.md
+    ├── claude.md
+    ├── cursor.md
+    ├── github-copilot.md
+    └── Readme.md
 ```
 
 ---
