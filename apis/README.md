@@ -96,7 +96,7 @@ export API_SECRET="your-api-secret"
 import requests
 import os
 
-def make_api_request(endpoint: str, payload: dict) -> dict:
+def make_api_request(endpoint: str, payload: dict[str, any]) -> dict[str, any]:
     """
     Make a standardized API request with proper headers and error handling.
     """
@@ -179,7 +179,7 @@ def retry_with_backoff(max_retries=3, base_delay=1):
                         raise
                     delay = base_delay * (2 ** attempt)
                     time.sleep(delay)
-            return None
+            raise RuntimeError("Max retries exceeded")
         return wrapper
     return decorator
 ```

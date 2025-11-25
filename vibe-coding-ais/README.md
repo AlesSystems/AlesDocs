@@ -107,9 +107,7 @@ Vibe coding refers to the practice of using AI-powered tools to assist with soft
 "Write a function to sort"
 
 # Try:
-"Write a Python function that takes a list of dictionaries 
-and sorts them by a specified key in ascending or descending order. 
-Include type hints and docstring."
+"Write a Python function that takes a list of dictionaries and sorts them by a specified key in ascending or descending order. Include type hints and docstring."
 ```
 
 ### Common Use Cases
