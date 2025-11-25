@@ -14,48 +14,13 @@ This directory contains documentation and guides for using AI-powered coding ass
 
 Vibe coding refers to the practice of using AI-powered tools to assist with software development. These tools can help with code generation, debugging, refactoring, documentation, and more. By leveraging these assistants, developers can significantly improve productivity and code quality.
 
-## Popular AI Coding Tools
+## Tools
 
-### GitHub Copilot
-- **Description**: AI pair programmer that suggests code completions in real-time
-- **Integration**: Available as extensions for VS Code, JetBrains IDEs, Neovim, and more
-- **Key Features**:
-  - Context-aware code suggestions
-  - Multi-language support
-  - Natural language to code conversion
-  - Test generation
-
-### Claude (Anthropic)
-- **Description**: Advanced AI assistant capable of understanding and generating code
-- **Key Features**:
-  - Long context window for analyzing large codebases
-  - Detailed explanations and documentation
-  - Code review and refactoring suggestions
-  - Multi-file understanding
-
-### ChatGPT / GPT-4
-- **Description**: OpenAI's conversational AI with strong coding capabilities
-- **Key Features**:
-  - Code generation from natural language descriptions
-  - Debugging assistance
-  - Algorithm explanation
-  - Code conversion between languages
-
-### Cursor
-- **Description**: AI-first code editor built on VS Code
-- **Key Features**:
-  - Native AI integration
-  - Codebase-aware suggestions
-  - Chat with your codebase
-  - Automatic refactoring
-
-### Amazon CodeWhisperer
-- **Description**: AI coding companion from AWS
-- **Key Features**:
-  - Security scanning
-  - AWS service integration
-  - Reference tracking
-  - Multi-language support
+- [GitHub Copilot](./github-copilot.md)
+- [Claude](./claude.md)
+- [ChatGPT / GPT-4](./chatgpt.md)
+- [Cursor](./cursor.md)
+- [Amazon CodeWhisperer](./amazon-codewhisperer.md)
 
 ## Best Practices
 
