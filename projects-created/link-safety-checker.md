@@ -247,8 +247,6 @@ The system performs five key rule-based checks:
 
 **Total Score**: Normalized to 0-100 scale
 
-For detailed documentation of all rules, see [docs/risk_rules.md](docs/risk_rules.md).
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
