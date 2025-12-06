@@ -37,6 +37,12 @@ Documentation for future project ideas and concepts.
 - [Web Apps Project Ideas](./project-ideas/web-apps/)
 - Prioritization framework
 
+### [✅ Projects Created](./projects-created/)
+Documentation for completed and deployed projects by AlesSystems members.
+- [Link Safety Checker - URL Security Analyzer](./projects-created/link-safety-checker.md)
+  - Hybrid URL analysis using Google Safe Browsing API and rule-based heuristics
+  - Developers: Altan Esmer, Kayra Yetis
+
 ## 🚀 Getting Started
 
 1. Browse the directories above to find relevant documentation
@@ -81,6 +87,9 @@ AlesDocs/
 │   │   └── README.md
 │   └── web-apps/
 │       └── README.md
+├── projects-created/         # Completed projects
+│   ├── README.md
+│   └── link-safety-checker.md
 └── vibe-coding-ais/          # AI coding assistants documentation
     ├── README.md
     ├── amazon-codewhisperer.md
